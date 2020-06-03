@@ -8,6 +8,9 @@
  *
  * @author tombarton
  */
+
+import java.util.Scanner;
+
 public class Adder {
     public static void main(String[] arg) {
         
