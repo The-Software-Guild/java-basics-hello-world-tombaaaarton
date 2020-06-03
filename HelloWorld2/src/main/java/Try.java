@@ -22,7 +22,7 @@ public class Try {
         // Setting Boolean to false to run? 
         Boolean isValid = false;
         
-        // Block is run until, with the condition evaluated at the bottom rather than the top
+        // Block is run until condition is met, with the condition evaluated at the bottom rather than the top
         do {
             
             // Similar to try except in python, first tries to execute this block
