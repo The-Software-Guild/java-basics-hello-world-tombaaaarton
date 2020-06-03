@@ -19,7 +19,7 @@ public class Adder {
         // variable data type scanner, name my scanner, used to collect input. Scanner not recognised.
         Scanner myScanner = newScanner(System.in);
         
-        // data collected as strings, Java naming convention lowercase first word uppercase second
+        // data collected as strings, Java naming convention: lowercase first word uppercase second
         String stringOperand1 = "";
         String stringOperand2 = "";
         
@@ -33,7 +33,7 @@ public class Adder {
 
         stringOperand2 = myScanner.nextline();
         
-        // parse string values into integer in order to be able to perform operations
+        // parse string values into integer to perform operations
         operand1 = Integer.parseInt(stringOperand1);
         operand2 = Integer.parseInt(stringOperand2);
         
