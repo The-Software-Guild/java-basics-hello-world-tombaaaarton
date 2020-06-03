@@ -37,7 +37,7 @@ public class Try {
                 System.out.println("Invalid input");
          
             }
-        // unsure how while and do whiles seems to work in java, no stattement in block that changes boolean to true
+        // unsure how while and do while seems to work in java, no statement in block that changes boolean to true?
         } while(!isValid)
                 
                 
