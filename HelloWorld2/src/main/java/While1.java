@@ -36,6 +36,7 @@ public class While1 {
                 break;
             }      
         }
+    }
     
 }
     
@@ -56,5 +57,10 @@ do {
     }
 
 } while(!isValid)
+    
+isValid is set to false, and the program is set to run so long as it is false? 
+Becomes true when data is entered, terminating the loop?
+Again unsure exactly on the while and do while loops: 
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
 */
