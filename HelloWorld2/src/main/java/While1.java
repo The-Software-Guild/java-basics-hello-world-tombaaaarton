@@ -26,7 +26,7 @@ public class While1 {
             // Reads and stores the string input in the input variable
             String input = myScanner.readLine();
         
-            // keep looping so long as the conditions are met of input != null and !input.isEmpty()
+            // keep looping so long as the conditions are met of data being null or empty.
             if(input != null && !input.isEmpty()) {
             
                 System.out.println("Nothing entered!");
@@ -38,3 +38,23 @@ public class While1 {
         }
     
 }
+    
+/* Other method using Boolean
+    
+
+boolean isValid = false;
+
+do {
+
+    System.out.println("Enter some data: ");
+    String input = myScanner.readLine();
+
+    if(input == null || input.isEmpty()) {
+        System.out.println("You did not enter anything!")
+    } else {
+        isValid = true
+    }
+
+} while(!isValid)
+
+*/
